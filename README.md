@@ -12,7 +12,7 @@
     +       $(PIXMAN_LIBS) \
     +       -ldl
 
-1. In `kmscon`: `make check`
+1. In `kmscon`: `automake` and `make check`
 1. Build this
 1. Symlink `game.so` to `kmscon/.libs`
 1. `test_kmsiface` now runnable
