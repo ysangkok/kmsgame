@@ -26,6 +26,7 @@ void game_putinput(int keysym, char* str, bool validunicode, int ucs4char) {
 }
 
 pixman_image_t* game_getframe() {
+    printf("asked for frame!\n");
     pixman_image_t* filimg;
     uint32_t *dest3 = malloc (1280*800*4);
 
